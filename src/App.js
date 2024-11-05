@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
+          GitHub Codespaces <span className="heart" role='img' aria-label='heart'>♥️</span> React :)
         </p>
         <p className="small">
           Edit <code>src/App.js</code> and save to reload.
